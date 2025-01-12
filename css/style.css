@@ -125,3 +125,19 @@ h2{
     border-radius: 50%;
     left: -37px;
 }
+.volunteer-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    display: block;
+}
+.award-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    display: block;
+}
