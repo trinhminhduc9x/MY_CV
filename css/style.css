@@ -221,6 +221,20 @@ h2::before {
     border-radius: 999px;
 }
 
+.h2-sub {
+    font-size: 0.85em;
+    font-weight: 600;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+}
+
+.award-en {
+    margin-top: 8px !important;
+    font-size: 13px;
+    color: var(--muted);
+    font-style: italic;
+}
+
 .profile-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -361,6 +375,30 @@ h3 {
     color: #3f4b5f;
 }
 
+.description ul {
+    margin: 0;
+    padding-left: 1.25rem;
+    color: #3f4b5f;
+}
+
+.description li + li {
+    margin-top: 6px;
+}
+
+.exp-block + .exp-block {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px dashed var(--line);
+}
+
+.item .exp-block h4 {
+    margin: 0 0 8px;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--accent-dark);
+    letter-spacing: 0.02em;
+}
+
 .two-column {
     display: grid;
     grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
@@ -374,6 +412,24 @@ h3 {
 
 .compact-item p + p {
     margin-top: 10px;
+}
+
+.edu-label {
+    margin-top: 14px !important;
+    margin-bottom: 8px !important;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--muted);
+}
+
+.edu-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    color: #475569;
+}
+
+.edu-list li + li {
+    margin-top: 6px;
 }
 
 .date {
